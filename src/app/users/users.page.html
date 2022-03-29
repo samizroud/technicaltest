@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>users</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <div *ngFor="let item of items"> 
+      <ion-item  [routerLink]="['../search',item.login]" >
+        <ion-avatar><img [src]="item.avatar_url" alt=""></ion-avatar>
+        <ion-label>{{item.login}}</ion-label>
+      </ion-item>
+      
+    </div>
+    
+  </ion-list>
+</ion-content>
+

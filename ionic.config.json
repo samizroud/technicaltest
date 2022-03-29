@@ -1,0 +1,7 @@
+{
+  "name": "githubusers",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
